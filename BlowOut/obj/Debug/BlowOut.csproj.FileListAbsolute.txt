@@ -150,3 +150,5 @@ C:\Users\boyce\source\repos\BlowOut\obj\Debug\BlowOut.csproj.CoreCompileInputs.c
 C:\Users\boyce\source\repos\BlowOut\obj\Debug\BlowOut.csproj.CopyComplete
 C:\Users\boyce\source\repos\BlowOut\obj\Debug\BlowOut.dll
 C:\Users\boyce\source\repos\BlowOut\obj\Debug\BlowOut.pdb
+C:\Users\Connor Merkley\Documents\GitHub\Project1\BlowOut\obj\Debug\BlowOut.dll
+C:\Users\Connor Merkley\Documents\GitHub\Project1\BlowOut\obj\Debug\BlowOut.pdb
