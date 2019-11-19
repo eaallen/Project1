@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Blow Out!";
+}
+<link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+
+<div class="jumbotron">
+    <h1>Welcome IS Students</h1>
+    <p class="lead">We'll help organize your homework</p>
+    <img src="~/Content/Images/student.jpg" class="center"/>
+    <br />
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Add Homework</h2>
+        <p>
+            Don't even know where to start on your homework? Add homework and we'll help break it down for you.
+        </p>
+        <!---string text, method, controller name-->
+        <p> <a class=" btn btn-default" href="@Url.Action("Add Homework", "ShowHomework", "Homework")" </a> cliclk me test</p>
+        @Html.ActionLink("Add Homework", "ShowHomework", "Homework")
+
+
+    </div>
+    <div class="col-md-4">
+        <h2>Choose your classes</h2>
+        <p>Add your Classes to help sort out which homework goes with which class</p>
+        <!--<p><a class=" btn btn-default" @Html.ActionLink("Add Class", "ShowClass", "Classes")</a></p>-->
+    </div>
+    <div class="col-md-4">
+        <h2>Learning Suite</h2>
+        <p>Forgot what Homework you need to do? Check out Learning Suite to get you back on track!</p>
+        <p><a class="btn btn-default" href="https://learningsuite.byu.edu/.oI6W/student/top">Learning Suite &raquo;</a></p>
+    </div>
+</div>
