@@ -22,16 +22,16 @@
                 <p>
                     Don't even know where to start on your homework? Add homework and we'll help break it down for you.
                 </p>
-                <!---string text, method, controller name-->
-                <p> <a class=" btn btn-default" href="@Url.Action("ShowHomework", "Homework")" </a> cliclk me test</p>
-                @Html.ActionLink("Add Homework", "ShowHomework", "Homework")
+                                                                 <!--- method   , controller-->
+                <p> <a class=" btn btn-default" href="@Url.Action("ShowHomework", "Homework")" </a> See Homework &raquo;</p>
+               
 
 
             </div>
             <div class="col-md-4">
                 <h2>Choose your classes</h2>
                 <p>Add your Classes to help sort out which homework goes with which class</p>
-                <!--<p><a class=" btn btn-default" @Html.ActionLink("Add Class", "ShowClass", "Classes")</a></p>-->
+                <p class=" btn btn-default" href="@Url.Action("ShowClass", "Classes")"> Show classes &raquo;</p>
             </div>
             <div class="col-md-4">
                 <h2>Learning Suite</h2>

@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlowOut", "BlowOut\BlowOut.csproj", "{2019C48C-10D9-41AB-BD56-1AD93D29E144}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{F39E4FF1-6853-4C3A-898D-A124A9D30A5A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{2019C48C-10D9-41AB-BD56-1AD93D29E144}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2019C48C-10D9-41AB-BD56-1AD93D29E144}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2019C48C-10D9-41AB-BD56-1AD93D29E144}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F39E4FF1-6853-4C3A-898D-A124A9D30A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F39E4FF1-6853-4C3A-898D-A124A9D30A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F39E4FF1-6853-4C3A-898D-A124A9D30A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F39E4FF1-6853-4C3A-898D-A124A9D30A5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
